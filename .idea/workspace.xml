@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2abd1b3f-686a-41aa-9ff1-5bac0f403f92" name="Changes" comment="Initial commit" />
+    <list default="true" id="2abd1b3f-686a-41aa-9ff1-5bac0f403f92" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/e5_MyXML/myxml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/e6_MyJSON/myjson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/e7_MyHTML/Myhtml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/e8_MyExcel/MyExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/e1_xml/ex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/e1_xml/ex.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,13 +56,13 @@
     "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ReadExcelFileExample">
-    <configuration name="JsonParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="e2_json.JsonParser" />
+  <component name="RunManager" selected="Application.myjson">
+    <configuration name="MyExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="e8_MyExcel.MyExcel" />
       <module name="LR10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="e2_json.*" />
+          <option name="PATTERN" value="e8_MyExcel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,25 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="e3_html.LinkParser" />
+    <configuration name="Myhtml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="e7_MyHTML.Myhtml" />
       <module name="LR10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="e3_html.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NewsParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="e3_html.NewsParser" />
-      <module name="LR10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="e3_html.*" />
+          <option name="PATTERN" value="e7_MyHTML.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +96,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteExcelFileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="e4_excel.WriteExcelFileExample" />
+    <configuration name="myjson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="e6_MyJSON.myjson" />
       <module name="LR10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="e4_excel.*" />
+          <option name="PATTERN" value="e6_MyJSON.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myxml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="e5_MyXML.myxml" />
+      <module name="LR10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="e5_MyXML.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.myjson" />
+        <item itemvalue="Application.myxml" />
+        <item itemvalue="Application.Myhtml" />
+        <item itemvalue="Application.MyExcel" />
         <item itemvalue="Application.ReadExcelFileExample" />
-        <item itemvalue="Application.WriteExcelFileExample" />
-        <item itemvalue="Application.NewsParser" />
-        <item itemvalue="Application.LinkParser" />
-        <item itemvalue="Application.JsonParser" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +162,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686418573483</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial commit">
+      <created>1686419182923</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686419182923</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initial commit">
+      <created>1686419198988</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686419198988</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

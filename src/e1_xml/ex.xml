@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<library>
+<?xml version="1.0" encoding="UTF-8"?><library>
     <book>
         <title>Война и мир</title>
         <author>Лев Толстой</author>
@@ -10,4 +9,4 @@
         <author>Михаил Булгаков</author>
         <year>1967</year>
     </book>
-</library>
+<books><title>Азбука</title><author>ЛЕВ ТОЛСТОЙ</author><year>1950</year></books></library>
